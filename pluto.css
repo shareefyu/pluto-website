@@ -1,0 +1,187 @@
+.head{
+    background-image: url(bicycle.png);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+
+}
+body{
+    margin: 0;
+    font-family: Garamond, serif;
+}
+.topbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.material-icons{
+    font-size: 100px;
+    
+    margin: 50px;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-family: Garamond, serif;
+}
+h3{
+    color: black;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+    
+    
+
+button{
+    float: right;
+    margin-right: 50px;
+    background-color: #00a89a;
+    color: #fff;
+    
+    
+}
+#learn{
+    
+    opacity: 1.0;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    outline: 1px solid black;
+    color:#00a89a;
+    /* border-color: white;
+    border-width:2px; */
+}
+#download{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#00a89a; 
+    margin-right: 15px;
+    border:0;
+}
+
+
+ .material-icons{
+    font-size: 50px;
+    color: blue;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.fhead{
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    opacity: 0.6;
+}
+.fh{
+    text-align: left;
+    margin-left: 50px;
+    opacity: 0.6;
+}
+.sech{
+    
+    color: blue;
+    
+}
+
+
+.feat{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 50px;
+    
+}
+#cloud , #menu{
+    color: black;
+    font-size: 50px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    
+}
+#mth{
+    margin-left: -75px;
+}
+.reasons{
+    background-image: url("beautiful-waterfall-landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    
+    /* width: 100%; */
+    /* margin-right: 50px; */
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    color: white;
+    padding: 200px;
+    display: flex;
+    gap: 20px;
+
+    
+   
+}
+.reasonsh{
+    color: white;
+    text-align: justify;
+    /* margin-left: 50px; */
+
+    margin-top: 50px;
+    
+    
+    
+}
+
+.reasons ul {
+    padding-left: 15px;
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#map{
+    align-items: center;
+    display: flex;
+    height: 500px;
+    width:300px;
+    opacity: 0.8;
+    
+    
+}
+#fin{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #00a89a;
+    color: #fff;
+    margin-right: 15px;
+    float: left;
+    margin-top: 20px;
+    border: 0;
+    /* margin-left: 50px; */
+}
